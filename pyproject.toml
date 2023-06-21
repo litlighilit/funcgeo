@@ -1,0 +1,30 @@
+
+
+[project]
+name = "funcgeo"
+#fullname = "function geometric ploter"
+version = "1.0"
+authors = [
+    {name = "litlighilit", email = "litlighilit@foxmail.com"},
+]
+description = "to plot functions by inputing mathematical expressings"
+#long_description
+dependencies = [
+        "matplotlib"
+    ]
+
+readme = "README.md"
+
+license = {file = "LICENSE"}
+#text = "License :: OSI Approved :: MIT License", 
+classifiers = [
+    "Topic :: Education :: Computer Aided Instruction (CAI)",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Visualizatio",
+    "Programming Language :: Python :: 3"
+]
+keywords  =['plot','geometric','math']
+
+[project.gui-scripts]
+f-g = "main:main"
