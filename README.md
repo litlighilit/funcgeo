@@ -3,11 +3,27 @@
 </p>
 <h5 align="center">to plot functions by inputing mathematical expressings </h5>
 <h3 align="right" style="color:blue"> <!--The style doesn't work?!-->
-    model_ones:blue_book:
+    
 </h3>
 
 
 <br>
+
+## installation & usage
+install via these steps:
+```sh
+git clone https://github.com/litlighilit/funcgeo.git
+cd funcgeo
+```
+then you can run it by either the two ways:
+```sh
+python -m funcgeo
+```
+or  
+```sh
+pip install .
+f-g
+```
 
 ## factor :pushpin:
 * site-package-supported by matplotlib  

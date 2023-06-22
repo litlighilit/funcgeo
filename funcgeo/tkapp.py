@@ -79,16 +79,12 @@ class StyleMenu(Toplevel):
     def ch_linestyle(self, dest):
         obj = self.obj
         plt.setp(obj,linestyle=dest)
-        self.linestyle_v.set(obj.get_linestyle())
         self.master.canvas.draw()
-        self.linestyle_v.set(dest)
         self.withdraw()
     def ch_marker(self,dest):
         obj=self.obj
         plt.setp(obj,marker=dest)
-        self.marker_v.set(obj.get_marker())    
         self.master.canvas.draw()
-        self.marker_v.set(dest)
         self.withdraw()
         
 
@@ -119,8 +115,10 @@ class Handler:
         obj=event.artist
         if isinstance(obj,
             matplotlib.collections.PathCollection): return # PathCollection doesn't have `get_marker`...
-
-        self.target.style_menu.obj=obj
+        style_menu = self.target.style_menu
+        style_menu.obj=obj
+        style_menu.linestyle_v.set(obj.get_linestyle())
+        style_menu.marker_v.set(obj.get_marker())
         self.target.style_menu.deiconify()  
         # if `style_menu` was set as `self`'s attribute (and its master is `self.target`) and here we invoke is by `self.style_menu.deiconify()`
         #  then there'll be `_tkinter.TclError: bad window path name ".!application.!stylemenu"`

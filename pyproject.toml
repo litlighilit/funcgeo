@@ -1,30 +1,26 @@
 
-
 [project]
-name = "funcgeo"
-#fullname = "function geometric ploter"
-version = "1.0"
+name = 'funcgeo'
+version = '1.0'
 authors = [
-    {name = "litlighilit", email = "litlighilit@foxmail.com"},
+    {name = 'litlighilit', email = 'litlighilit@foxmail.com'},
 ]
-description = "to plot functions by inputing mathematical expressings"
-#long_description
-dependencies = [
-        "matplotlib"
-    ]
+description = 'to plot functions by inputing mathematical expressings'
 
-readme = "README.md"
+#dependencies = ['matplotlib']
 
-license = {file = "LICENSE"}
-#text = "License :: OSI Approved :: MIT License", 
+readme = 'README.md'
+
+license = {file = 'LICENSE'}
+#text = 'License :: OSI Approved :: MIT License', 
 classifiers = [
-    "Topic :: Education :: Computer Aided Instruction (CAI)",
-    "Topic :: Scientific/Engineering :: Mathematics",
-    "Topic :: Scientific/Engineering :: Medical Science Apps.",
-    "Topic :: Scientific/Engineering :: Visualizatio",
-    "Programming Language :: Python :: 3"
+    'Topic :: Education :: Computer Aided Instruction (CAI)',
+    'Topic :: Scientific/Engineering :: Mathematics',
+    'Topic :: Scientific/Engineering :: Medical Science Apps.',
+    'Topic :: Scientific/Engineering :: Visualizatio',
+    'Programming Language :: Python :: 3'
 ]
-keywords  =['plot','geometric','math']
+keywords  = ['plot','geometric','math']
 
 [project.gui-scripts]
-f-g = "main:main"
+f-g = 'funcgeo.main:main'

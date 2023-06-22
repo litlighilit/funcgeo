@@ -1,1 +1,2 @@
-include res/*
+graft funcgeo/res
+prune funcgeo/__pycache__
