@@ -7,7 +7,7 @@ authors = [
 ]
 description = 'to plot functions by inputing mathematical expressings'
 
-#dependencies = ['matplotlib']
+dependencies = ['matplotlib']
 
 readme = 'README.md'
 
