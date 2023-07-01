@@ -1,2 +1,1 @@
-graft funcgeo/res
-prune funcgeo/__pycache__
+graft src/funcgeo/res

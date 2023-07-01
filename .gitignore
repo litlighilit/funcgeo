@@ -1,3 +1,4 @@
 build
 dist
-funcgeo.egg-info
+src/funcgeo.egg-info
+src/funcgeo/__pycache__

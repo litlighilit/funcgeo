@@ -13,7 +13,7 @@
 install via these steps:
 ```sh
 git clone https://github.com/litlighilit/funcgeo.git
-cd funcgeo
+cd funcgeo/src
 ```
 then you can run it by either the two ways:
 ```sh
