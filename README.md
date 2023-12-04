@@ -42,7 +42,7 @@ available|meaning|python expressing
 log_{a}(x)|the log of x to base a(log<sub>a</sub>x))|
 
 examples: y=x log_{2}(x^2)  :arrow_right:  y=x log<sub>2</sub>x<sup>2</sup><!--$\rightarrow y=x log_2 x^2$-->  
-&emsp;What's more,you con input something like`y=x,-10<x<10,r--,n=10`to initialize more accurately
+&emsp;What's more,you can input something like`y=x,-10<x<10,r--,n=10`to initialize more accurately
 ### change color,linestyle and marker
 click a object,then press right mouse button  
 where there will post a menu for you to change the object's color,linestyle and marker  
